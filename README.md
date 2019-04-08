@@ -1,9 +1,10 @@
 RoR - Lynda.com
 04/06/2019 Sunday
 
+chp3, instance variables 
 
 
-
+redirect_to(:controller => 'demo', :action => 'index')
 
 
 
