@@ -15,9 +15,13 @@ default: &default
   host: database
   username: postgres
   password: postgres
-  database: docker_rails_dev
+  #database: docker_rails_dev
   pool: 5
   timeout: 5000
+
+development:
+  <<: *default
+  database: docker_rails_dev
 
 test:
   <<: *default
