@@ -1,7 +1,7 @@
 RoR - Lynda.com
-04/07/2019 mon.
+04/09/2019, tues.
 
-chp5, Model naming 
+chp6, Relationship types 
 
 #tutorial
 docker-compose exec web rails g migration AlterUsers
