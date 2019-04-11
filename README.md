@@ -1,9 +1,10 @@
 RoR - Lynda.com
-04/09/2019, tues.
+04/10/2019, wed 
 
-chp6, Relationship types 
+chp6, one to many 
 
 #tutorial
+docker-compose exec web rails console 
 docker-compose exec web rails g migration AlterUsers
 docker-compose exec web rails g model Subject
 docker-compose exec web rails g model Page
